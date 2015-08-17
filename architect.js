@@ -6,7 +6,7 @@ Architect.find = function(name){
 
 Architect.getValue = function(name){
   ret = [];
-  elements = document.querySelectorAll('*[data-' + name + ']');
+  elements = Architect.find(name);
   for (var i = 0; i < elements.length; i ++){ 
     ret.push(elements[i].attributes[0].value);
   }
