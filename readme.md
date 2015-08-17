@@ -1,6 +1,6 @@
 # Architect
 
-Architect is an ultra-tiny way to do unobtrusive javascript quickly and easily. Simple usage can be seen in test.html. Architect is licensed under the GPL v3.
+Architect is a tiny utility wrapper for doing unobtrusive javascript. Simple usage can be seen in test.html. Architect is licensed under the GPL v3.
 
 # Methods
 
