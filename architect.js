@@ -6,6 +6,7 @@ Architect.action = function(name, cb){
   for (var i = 0; i < elements.length; i ++){
     cb(elements[i], values[i]);
   }
+  return elements;
 };
 
 Architect.find = function(name){
@@ -21,3 +22,11 @@ Architect.getValue = function(name){
   return ret;
 }
 
+Architect.removeAttribute = function(element, name){
+  for (var i = 0; i < element.attributes.length; i++){
+    if (element.attributes[i].name === 'data-' + name){
+      element.removeAttribute(element.attributes[i].name);
+    }
+  }
+  return element;
+}
