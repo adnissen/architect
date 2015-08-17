@@ -21,4 +21,3 @@ Returns an array with all values from elements which have a data- attribute matc
 *Architect.removeAttribute(element, name)*
 
 Removes an attribute from the passed in element, then returns the element.
-  
