@@ -1,0 +1,11 @@
+<body>
+<div data-testing='foo'></div>
+<script src="architect.js"></script>
+<script>
+  Architect.action('testing', function(e, val){
+    if (val == 'foo'){
+      e.innerHTML = 'I was modified!';
+    }
+  });
+</script>
+</body>
