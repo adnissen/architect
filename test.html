@@ -5,6 +5,7 @@
   Architect.action('testing', function(e, val){
     if (val == 'foo'){
       e.innerHTML = 'I was modified!';
+      Architect.removeAttribute(e, 'testing');
     }
   });
 </script>
